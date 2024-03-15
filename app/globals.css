@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-container ul li:after {
+    content: "";
+    width: 0%;
+    height: 6px;
+    background: #003587;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.nav-container ul li:hover:after {
+    width: 40%;
+}
