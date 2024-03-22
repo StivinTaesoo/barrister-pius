@@ -17,7 +17,7 @@ export default function HeroSection() {
                     </p>
                 </div>
             </div>
-            hero
+           
         </div>
     );
 }
