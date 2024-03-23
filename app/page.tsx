@@ -1,14 +1,14 @@
 import Image from "next/image";
-import { Navbar } from "./components/Navbar";
-import HeroSection from "./components/Hero";
-import Footer from "./components/Footer";
+import HeroSection from "../components/Hero";
+import Slider from "@/components/Slider";
+import { motion } from "framer-motion";
 
 export default function Home() {
     return (
         <div className="text-center relative w-full">
             <HeroSection />
             <main className="w-[90%] mx-auto my-12 flex justify-center items-center flex-col gap-y-8 md:gap-x-8 md:w-[80%] md:flex-row">
-                <p className="text-left w-full tracking-wide leading-8 lg:w-2/3 lg:pr-8">
+                <p className="text-left w-full tracking-wide leading-8 md:w-2/3 md:pr-8">
                     Pius Ukeyima Akutah (born June 7, 1970) is a Nigerian legal
                     practitioner and public servant currently serving as the
                     Executive Secretary/Chief Executive Officer (CEO) of the
@@ -17,7 +17,8 @@ export default function Home() {
                     duties at the Council's headquarters in Lagos on November 1,
                     2023.
                 </p>
-                <div className="w-full lg:w-1/3  ">
+
+                <div className="w-full md:w-1/3  ">
                     <div className="h-60 bg-[#c3c3c3]">
                         <video
                             autoPlay
@@ -36,6 +37,7 @@ export default function Home() {
                     </p>
                 </div>
             </main>
+            <Slider />
         </div>
     );
 }
