@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div className="w-full py-12 bg-bluePrimary flex items-center justify-center text-center gap-x-32">
+        <div className="w-full py-12 bg-bluePrimary flex flex-col items-center justify-center text-center gap-y-10  md:flex-row md:gap-x-32">
             <div className="text-[#C3C3C3]">
                 <p>&copy;2024 Barrister Pius Akutah</p>
                 <p>emailaddress@gmail.com</p>
