@@ -27,7 +27,10 @@ export default function Home() {
                             loop
                             className="w-full h-full"
                         >
-                            <source src="/videos/office.mp4" type="video/mp4" />
+                            <source
+                                src="./videos/office.mp4"
+                                type="video/mp4"
+                            />
                         </video>
                     </div>
 
