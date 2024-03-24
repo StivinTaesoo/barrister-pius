@@ -38,8 +38,11 @@ export const Navbar = () => {
                 </ul>
             </div>
             {/* Mobile Navbar */}
-            <div className="w-full flex items-center justify-end bg-grey backdrop-blur-sm py-4 bg-opacity-10 fixed -top-2 z-20 md:hidden">
-                <RiMenu4Fill onClick={handleClick} className="mr-4" />
+            <div className="w-full flex items-center justify-end bg-grey backdrop-blur-sm py-6 bg-opacity-10 fixed -top-2 z-20 md:hidden">
+                <RiMenu4Fill
+                    onClick={handleClick}
+                    className="mr-4 text-[20px] text-[#1F75FE]"
+                />
                 <ul
                     className={
                         click

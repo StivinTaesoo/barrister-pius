@@ -28,7 +28,7 @@ function Slider() {
     }, [activeImage]);
 
     return (
-        <div className="grid place-items-center grid-row-2 w-[95%] mx-auto my-20 md:w-[80%] shadow-2xl rounded-2xl">
+        <div className="grid place-items-center grid-row-2 w-full mx-auto my-20 md:w-[80%] shadow-2xl rounded-2xl">
             <div className="w-full flex justify-center items-center gap-4 transition-transform ease-in-out duration-500 rounded-2xl">
                 {slideImages.map((img, index) => (
                     <div

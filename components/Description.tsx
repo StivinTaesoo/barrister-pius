@@ -37,7 +37,7 @@ const Description = ({ prev, next, activeImageIndex }: Props) => {
                         }}
                         className="w-full"
                     >
-                        <p className="leading-relaxed font-medium text-base tracking-wide h-40 text-gray-600">
+                        <p className="text-[14px] px-2 leading-relaxed font-medium text-base tracking-wide h-40 text-gray-600">
                             {element.desc}
                         </p>
                     </motion.div>
