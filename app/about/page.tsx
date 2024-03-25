@@ -7,7 +7,6 @@ function page() {
             <h1 className="uppercase text-3xl">About</h1>
             <div className="w-full md:w-1/2 text-left ">
                 <input id="check" type="checkbox " />
-                <Headings text={"Previous Post Held"} />
 
                 <p className="text-left w-full tracking-wide leading-8 ">
                     Before assuming his role at the Nigerian Shippers' Council,
