@@ -59,7 +59,7 @@ const Main = () => {
             <Slider />
             {/* ***************** FOOD ITEMs DISTRIBUTION VIDEO *************************** */}
             <div className="w-full mt-[7rem]  my-[6rem] ">
-                <div className="text-left w-full mb-2 md:px-40">
+                <div className="text-left w-full mb-4 md:px-40">
                     <p className="text-center w-full tracking-wide leading-8 ">
                         Relentless in his community service, Barrister Akutah
                         went all out to make the christmas festive period count
@@ -83,6 +83,14 @@ const Main = () => {
                     "Akutah is a member of several professional bodies, including the Nigerian Bar Association (NBA). He is an alumnus of prestigious programs such as the US Department of State's International Visitor Leadership Programme (IVLP) and the US International Law Enforcement Academy. He has been honored with various awards for his contributions to public service, including the Presidential Civil Service Merit Award and the National Honours Award as a Member of the Order of the Niger (MON)."
                 }
                 imgUrl={"/images/img-43.jpeg"}
+            />
+            {/* ***************** Recognitions *************************** */}
+            <ReverseSection
+                title={"Legacy"}
+                text={
+                    "Throughout his career, Akutah has demonstrated a commitment to excellence, professionalism, and international cooperation in the field of law and public service. His contributions to the Nigerian legal system and his efforts to promote maritime security and criminal justice have left a lasting impact on the nation's legal landscape."
+                }
+                imgUrl={"/images/bg-4.png"}
             />
         </main>
     );

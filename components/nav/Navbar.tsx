@@ -46,7 +46,7 @@ export const Navbar = () => {
                 <ul
                     className={
                         click
-                            ? "w-full absolute top-0 flex flex-col items-left px-4 py-12 justify-center gap-y-8 bg-white text-[22px] text-black font-bold transition-transorm ease-linear h-0 w-0 delay-1000 duration-1000 "
+                            ? "w-full h-[50vh] absolute top-0 flex flex-col items-left px-4 py-6 justify-center gap-y-4 bg-white text-[22px] text-black font-bold transition-transorm ease-linear h-0 w-0 delay-1000 duration-1000 "
                             : "hidden"
                     }
                 >
@@ -54,29 +54,31 @@ export const Navbar = () => {
                         className="absolute top-6 right-6"
                         onClick={closeMobileMenu}
                     />
-                    <li>
-                        <Link
-                            href="/"
-                            className="relative"
-                            onClick={closeMobileMenu}
-                        >
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/about" onClick={closeMobileMenu}>
-                            About
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/gallery" onClick={closeMobileMenu}>
-                            Gallery
-                        </Link>
-                    </li>
+                    <Link
+                        href="/"
+                        className="relative"
+                        onClick={closeMobileMenu}
+                    >
+                        <li>Home</li>
+                    </Link>
+                    <Link
+                        href="/"
+                        className="relative"
+                        onClick={closeMobileMenu}
+                    >
+                        <li>About</li>
+                    </Link>
+                    <Link
+                        href="/"
+                        className="relative"
+                        onClick={closeMobileMenu}
+                    >
+                        <li>Gallery</li>
+                    </Link>
 
                     <Link
                         href="/contact"
-                        className="px-4 py-2 text-white text-[24px] bg-bluePrimary  rounded-lg shadow-lg shadow-slate-700/70 hover:bg-blue-300 hover:transition-all"
+                        className="px-4 py-2 mt-2 text-white text-[24px] bg-bluePrimary  rounded-lg shadow-lg shadow-slate-700/70 hover:bg-blue-300 hover:transition-all"
                         onClick={closeMobileMenu}
                     >
                         Contact Me
