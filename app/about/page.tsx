@@ -1,4 +1,4 @@
-import Headings from "@/components/Headings";
+import Headings from "@/components/body/Sections";
 import React from "react";
 
 function page() {
