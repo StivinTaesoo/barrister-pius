@@ -16,7 +16,7 @@ const Description = ({ prev, next, activeImageIndex }: Props) => {
                 <div
                     className={
                         index === activeImageIndex
-                            ? `block w-full h-[20vh] py-3 fade-in ease-in-out md:h-[15vh]`
+                            ? `block w-full h-[25vh] py-3 fade-in ease-in-out md:h-[15vh]`
                             : `hidden`
                     }
                     key={index}

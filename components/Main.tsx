@@ -17,8 +17,9 @@ const Main = () => {
     return (
         <main className="w-[90%] mx-auto md:w-[80%]">
             <div className="my-12 w-full flex justify-center items-center flex-col gap-y-8 md:gap-x-8  md:flex-row">
+                {/* ***************** Introduction *************************** */}
                 <div className="w-full leading-8 md:w-2/3 md:pr-8">
-                    <Headings text={"Current Post Held"} />
+                    <Headings text={"Intro"} />
                     <p className="text-left w-full tracking-wide ">
                         <span className="font-bold">Pius Ukeyima Akutah</span>{" "}
                         is a Nigerian legal practitioner and public servant
@@ -30,7 +31,7 @@ const Main = () => {
                         November 1, 2023.
                     </p>
                 </div>
-
+                {/* ***************** FIRST DAY AT WORK VIDEO *************************** */}
                 <div className="w-full md:w-1/3 ">
                     <Videos
                         vidSrc={videoSource[0]}
@@ -79,6 +80,7 @@ const Main = () => {
                 </Link>
             </div>
             <Slider />
+            {/* ***************** FOOD ITEMs DISTRIBUTION VIDEO *************************** */}
             <div className="w-full mt-[7rem]  my-[6rem] ">
                 <div className="text-left w-full mb-2 md:px-40">
                     <p className="text-center w-full tracking-wide leading-8 ">
@@ -88,11 +90,39 @@ const Main = () => {
                         of food items to the people.
                     </p>
                 </div>
+
                 <div className="flex flex-col items-center justify-center">
                     <Videos
                         vidSrc={videoSource[1]}
                         vidStyle={videoStyle[1]}
                         vidText={writeUp[1]}
+                    />
+                </div>
+            </div>
+            {/* ***************** Recognitions *************************** */}
+
+            <div className="my-12 w-full flex justify-center items-center flex-col gap-y-8 md:gap-x-8  md:flex-row">
+                <div className="w-full leading-8 md:w-2/3 md:pr-8">
+                    <Headings text={"Recognitions"} />
+                    <p className="text-left w-full tracking-wide ">
+                        Akutah is a member of several professional bodies,
+                        including the Nigerian Bar Association (NBA). He is an
+                        alumnus of prestigious programs such as the US
+                        Department of State's International Visitor Leadership
+                        Programme (IVLP) and the US International Law
+                        Enforcement Academy. He has been honored with various
+                        awards for his contributions to public service,
+                        including the Presidential Civil Service Merit Award and
+                        the National Honours Award as a Member of the Order of
+                        the Niger (MON).
+                    </p>
+                </div>
+                {/* ***************** FIRST DAY AT WORK VIDEO *************************** */}
+                <div className="w-full md:w-1/2">
+                    <img
+                        src="/images/img-43.jpeg"
+                        alt=""
+                        className="w-full rounded-md shadow-xl transition-all hover:scale-110"
                     />
                 </div>
             </div>

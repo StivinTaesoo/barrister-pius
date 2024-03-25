@@ -25,3 +25,12 @@
 .btn-effect:hover {
     transform: scale(1.1);
 }
+
+.mobile-menu ul li {
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.mobile-menu ul li:hover {
+    background: #1f75fe;
+    color: #fff;
+}
