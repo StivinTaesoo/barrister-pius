@@ -62,14 +62,14 @@ export const Navbar = () => {
                         <li>Home</li>
                     </Link>
                     <Link
-                        href="/"
+                        href="/about"
                         className="relative"
                         onClick={closeMobileMenu}
                     >
                         <li>About</li>
                     </Link>
                     <Link
-                        href="/"
+                        href="/gallery"
                         className="relative"
                         onClick={closeMobileMenu}
                     >
