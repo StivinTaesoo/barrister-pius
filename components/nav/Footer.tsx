@@ -5,7 +5,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
     return (
-        <div className="w-full py-12 bg-bluePrimary flex flex-col items-center justify-center text-center gap-y-10  md:flex-row md:gap-x-32">
+        <div className="w-full py-12 bg-bluePrimary mt-8 flex flex-col items-center justify-center text-center gap-y-10  md:flex-row md:gap-x-32">
             <div className="flex flex-col gap-6 justify-center items-center">
                 <div className="text-[#C3C3C3]">
                     <p>&copy;2024 Barrister Pius Akutah</p>
