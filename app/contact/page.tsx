@@ -23,7 +23,49 @@ function page() {
                     </div>
                 </div>
             </div>
-            <div className="w-[80%] h-[700px] mx-auto my-[6rem] border-1 bg-[#A6A6A630] rounded-lg"></div>
+            <div className="w-[98%] mx-auto my-[6rem] bg-[#A6A6A630] border border-1 border-slate-600 rounded-lg py-[5rem] px-2 md:w-[80%]">
+                <h1 className="text-3xl font-bold text-center">Contact Me</h1>
+                <form
+                    action=""
+                    className="w-full  mx-auto mt-[2rem] flex flex-col justify-center md:w-[50%]"
+                >
+                    <div className="w-full flex flex-col justify-center gap-6 md:flex-row">
+                        <div className="w-full flex flex-col md:1/2">
+                            <label htmlFor="firstName">First name</label>
+                            <input
+                                type="text"
+                                className=" rounded-md bg-transparent border border-1 border-slate-600 p-2"
+                            />
+                        </div>
+                        <div className="w-full flex flex-col md:1/2">
+                            <label htmlFor="lastName">Last name</label>
+                            <input
+                                type="text"
+                                className=" rounded-md bg-transparent border border-1 border-slate-600 p-2"
+                            />
+                        </div>
+                    </div>
+                    <div className="w-full mx-auto mt-6 flex flex-col justify-center">
+                        <div className="flex flex-col ">
+                            <label htmlFor="email ">Email</label>
+                            <input
+                                type="text"
+                                className="rounded-md bg-transparent border border-1 border-slate-600 p-2"
+                            />
+                        </div>
+                        <div className="flex flex-col mt-6">
+                            <label htmlFor="email ">Message</label>
+                            <textarea className="rounded-md bg-transparent border border-1 border-slate-600 p-2" />
+                        </div>
+                        <button
+                            type="submit"
+                            className="w-full bg-[#1F75FE] mt-6 text-white py-2 rounded-md transition-all hover:bg-blue-300"
+                        >
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
         </>
     );
 }
