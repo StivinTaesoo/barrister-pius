@@ -23,13 +23,13 @@ function page() {
                     </div>
                 </div>
             </div>
-            <div className="w-[80%] mx-auto my-[6rem] bg-[#A6A6A630] rounded-lg py-[5rem]">
+            <div className="w-full mx-auto my-[6rem] bg-[#A6A6A630] rounded-lg py-[5rem] px-2 md:w-[80%]">
                 <h1 className="text-3xl font-bold text-center">Contact Me</h1>
                 <form
                     action=""
-                    className="w-[50%] mx-auto mt-[2rem] flex flex-col justify-center"
+                    className="w-full  mx-auto mt-[2rem] flex flex-col justify-center md:w-[50%]"
                 >
-                    <div className="w-full flex justify-center gap-x-4">
+                    <div className="w-full flex-col justify-center gap-6 md:flex-row">
                         <div className="w-full flex flex-col">
                             <label htmlFor="firstName">First name</label>
                             <input
