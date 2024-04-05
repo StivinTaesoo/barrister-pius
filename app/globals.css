@@ -34,3 +34,10 @@
     background: #1f75fe;
     color: #fff;
 }
+
+.text-shadow {
+    text-shadow: 4px 4px 4px #00000050;
+}
+.text-shadow-2 {
+    text-shadow: 4px 4px 4px #00000010;
+}
