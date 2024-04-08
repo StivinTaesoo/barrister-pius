@@ -2,7 +2,7 @@ import React from "react";
 
 function page() {
     return (
-        <>
+        <div className="w-full">
             <div
                 className="w-full h-[500px] bg-cover bg-center relative "
                 style={{ backgroundImage: "url(./images/hcc-4.jpeg)" }}
@@ -24,7 +24,84 @@ function page() {
                     </div>
                 </div>
             </div>
-        </>
+            {/* Section 1 */}
+            <div className="w-[95%] mx-auto my-[4rem] md:w-[80%] ">
+                <p className="text-center mb-2">
+                    Barrister Akutah with Distinguished Senator George Akume the
+                    Secretary to the Government of the Federation
+                </p>
+                <div className="grid grid-cols-1 gap-y-4 justify-items-center md:grid-cols-2">
+                    <div className="w-full h-[250px] rounded-md shadow-md md:w-[95%] md:h-[300px]">
+                        <img
+                            src="/images/img-1.jpg"
+                            alt=""
+                            className="w-full h-full object-cover rounded-md shadow-md"
+                        />
+                    </div>
+                    <div className="w-full h-[250px] rounded-md shadow-md md:w-[95%] md:h-[300px]">
+                        <img
+                            src="/images/img-2.jpg"
+                            alt=""
+                            className="w-full h-full object-cover rounded-md shadow-md"
+                        />
+                    </div>
+                    <div className="w-full h-[250px] rounded-md shadow-md md:w-[95%] md:h-[300px]">
+                        <img
+                            src="/images/img-3.jpg"
+                            alt=""
+                            className="w-full h-full object-cover rounded-md shadow-md"
+                        />
+                    </div>
+                    <div className="w-full h-[250px] rounded-md shadow-md md:w-[95%] md:h-[300px]">
+                        <img
+                            src="/images/img-4.jpg"
+                            alt=""
+                            className="w-full h-full object-cover rounded-md shadow-md"
+                        />
+                    </div>
+                </div>
+            </div>
+            {/* Section 2 */}
+            <div className="w-[95%] mx-auto my-[4rem] md:w-[80%] ">
+                <p className="text-center mb-2">
+                    Barr. Akutah while at Abeokuta for NSC 2024 Strategic
+                    Management Retreat had the privilege of exchanging ideas
+                    with Former President of Nigeria, Olusegun Obasanjo. The
+                    visit sparked enriching conversations on unlocking our
+                    nation's potential for economic prosperity!
+                </p>
+                <div className="grid grid-cols-1 gap-y-4 justify-items-center md:grid-cols-2">
+                    <div className="w-full h-[250px] rounded-md shadow-md md:w-[95%] md:h-[300px]">
+                        <img
+                            src="/images/obj-4.jpeg"
+                            alt=""
+                            className="w-full h-full object-cover rounded-md shadow-md"
+                        />
+                    </div>
+                    <div className="w-full h-[250px] rounded-md shadow-md md:w-[95%] md:h-[300px]">
+                        <img
+                            src="/images/obj-1.jpeg"
+                            alt=""
+                            className="w-full h-full object-cover rounded-md shadow-md"
+                        />
+                    </div>
+                    <div className="w-full h-[250px] rounded-md shadow-md md:w-[95%] md:h-[300px]">
+                        <img
+                            src="/images/obj-2.jpeg"
+                            alt=""
+                            className="w-full h-full object-cover rounded-md shadow-md"
+                        />
+                    </div>
+                    <div className="w-full h-[250px] rounded-md shadow-md md:w-[95%] md:h-[300px]">
+                        <img
+                            src="/images/obj-3.jpeg"
+                            alt=""
+                            className="w-full h-full object-cover rounded-md shadow-md"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }
 

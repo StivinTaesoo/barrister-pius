@@ -18,7 +18,9 @@ const Videos = ({ vidSrc, vidStyle, vidText }: Props) => {
                 </video>
             </div>
 
-            <p className="italic mt-2">{vidText}</p>
+            <p className="mt-2">
+                <em>{vidText}</em>
+            </p>
         </div>
     );
 };

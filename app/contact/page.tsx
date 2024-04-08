@@ -27,7 +27,7 @@ function page() {
             </div>
             {/* Contact Form Session */}
             <div className="w-full bg-[#ededee] py-[1rem] my-0">
-                <div className="w-[98%] mx-auto my-[6rem] bg-[#ededee] border border-1 border-slate-400 rounded-lg py-[5rem] px-2 md:w-[80%]">
+                <div className="w-[98%] mx-auto my-[3rem] bg-[#ededee] border border-1 border-slate-400 rounded-lg py-[5rem] px-2 md:w-[80%]">
                     <h1 className="text-3xl font-bold text-center">
                         Contact Me
                     </h1>

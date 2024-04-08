@@ -21,13 +21,12 @@ const Main = () => {
                 {/* ***************** Introduction *************************** */}
                 <div className="w-full leading-8 md:w-2/3 md:pr-8">
                     <p className="text-left w-full tracking-wide ">
-                        <span className="font-bold">Pius Ukeyima Akutah</span>{" "}
-                        is a Nigerian legal practitioner and public servant
-                        currently serving as the Executive Secretary/Chief
-                        Executive Officer (CEO) of the Nigerian Shippers'
-                        Council. He assumed office on October 25, 2023,
-                        succeeding Emmanuel Jime, and officially commenced his
-                        duties at the Council's headquarters in Lagos on
+                        Pius Ukeyima Akutah is a Nigerian legal practitioner and
+                        public servant currently serving as the Executive
+                        Secretary/Chief Executive Officer (CEO) of the Nigerian
+                        Shippers' Council. He assumed office on October 25,
+                        2023, succeeding Emmanuel Jime, and officially commenced
+                        his duties at the Council's headquarters in Lagos on
                         November 1, 2023.
                     </p>
                 </div>
