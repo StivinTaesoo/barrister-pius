@@ -41,7 +41,7 @@ export const Navbar = () => {
             <div className="mobile-menu w-full flex items-center justify-end bg-grey backdrop-blur-sm py-6 bg-opacity-10 fixed -top-2 z-20 md:hidden">
                 <RiMenu4Fill
                     onClick={handleClick}
-                    className="mr-4 text-[20px] text-[#1F75FE] font-bold"
+                    className="mr-4 text-[24px] text-[#1F75FE] font-bold"
                 />
                 <ul
                     className={

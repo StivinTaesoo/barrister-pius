@@ -12,12 +12,12 @@ const Main = () => {
     ];
     const videoSource = ["./videos/office.mp4", "./videos/mkd.mp4"];
     const videoStyle = [
-        "h-60 bg-[#c3c3c3] rounded-md",
-        "md:w-[800px] h-70 m-auto",
+        "h-60 bg-[#c3c3c3] text-[10px] rounded-md",
+        "md:w-[800px] h-70 m-auto md:text-[14px]",
     ];
     return (
         <main className="w-[90%] mx-auto md:w-[80%]">
-            <div className="my-12 w-full flex justify-center items-center flex-col gap-y-8 md:gap-x-8  md:flex-row">
+            <div className="my-[4rem] w-full flex justify-center items-center flex-col gap-y-8 md:gap-x-8  md:flex-row">
                 {/* ***************** Introduction *************************** */}
                 <div className="w-full leading-8 md:w-2/3 md:pr-8">
                     <p className="text-left w-full tracking-wide ">
@@ -61,10 +61,9 @@ const Main = () => {
             <div className="w-full mt-[7rem]  my-[6rem] ">
                 <div className="text-left w-full mb-4 md:px-40">
                     <p className="text-center w-full tracking-wide leading-8 ">
-                        Relentless in his community service, Barrister Akutah
-                        went all out to make the christmas festive period count
-                        for the populace in his community by distributing tones
-                        of food items to the people in december 2023.
+                        Barrister Akutah makes the christmas festive period
+                        count for the populace in his community by distributing
+                        tones of food items to the people in december 2023.
                     </p>
                 </div>
 
@@ -84,14 +83,16 @@ const Main = () => {
                 }
                 imgUrl={"/images/img-43.jpeg"}
             />
-            {/* ***************** Recognitions *************************** */}
-            <ReverseSection
-                title={"Legacy"}
-                text={
-                    "Throughout his career, Akutah has demonstrated a commitment to excellence, professionalism, and international cooperation in the field of law and public service. His contributions to the Nigerian legal system and his efforts to promote maritime security and criminal justice have left a lasting impact on the nation's legal landscape."
-                }
-                imgUrl={"/images/bg-4.png"}
-            />
+            {/* ***************** Legacy *************************** */}
+            <div className="my-[6rem]">
+                <ReverseSection
+                    title={"Legacy"}
+                    text={
+                        "Throughout his career, Akutah has demonstrated a commitment to excellence, professionalism, and international cooperation in the field of law and public service. His contributions to the Nigerian legal system and his efforts to promote maritime security and criminal justice have left a lasting impact on the nation's legal landscape."
+                    }
+                    imgUrl={"/images/bg-4.png"}
+                />
+            </div>
         </main>
     );
 };
