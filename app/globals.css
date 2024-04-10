@@ -29,7 +29,7 @@
 .dropdown-menu {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    background-color: rgb(194, 248, 250);
+    background-color: #e6e2d5;
 }
 
 .mobile-menu ul li {
@@ -49,4 +49,6 @@
 }
 .bg-colors {
     background: #ededee;
+    background: #e4dfd1;
+    background: #ebd595;
 }

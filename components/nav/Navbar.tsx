@@ -78,7 +78,7 @@ export const Navbar = () => {
 
                     <Link
                         href="/contact"
-                        className="px-4 py-2 mt-2 text-white text-[24px] bg-bluePrimary  rounded-lg shadow-lg shadow-slate-700/70 hover:bg-blue-300 hover:transition-all"
+                        className="px-4 py-2 mt-2 text-white text-center text-[24px] bg-bluePrimary  rounded-lg shadow-lg shadow-slate-700/70 hover:bg-blue-300 hover:transition-all"
                         onClick={closeMobileMenu}
                     >
                         Contact Me

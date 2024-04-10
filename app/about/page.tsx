@@ -27,7 +27,7 @@ function page() {
                     </div>
                 </div>
             </div>
-            <div className="w-[95%] md:w-[80%] mx-auto "></div>;
+            <div className="w-[95%] md:w-[80%] mx-auto "></div>
             <TextContent
                 title={"Background"}
                 text={

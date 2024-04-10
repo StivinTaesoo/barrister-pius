@@ -11,12 +11,12 @@ type Props = {
 
 const Description = ({ prev, next, activeImageIndex }: Props) => {
     return (
-        <div className="flex  w-full text-center items-center justify-center relative rounded-bl-3xl rounded-br-3xl">
+        <div className="flex text-center items-center justify-center relative rounded-bl-3xl rounded-br-3xl md:w-[30%]">
             {slideImages.map((element, index) => (
                 <div
                     className={
                         index === activeImageIndex
-                            ? `block w-full h-[30vh] py-3 fade-in ease-in-out md:h-[15vh]`
+                            ? `block w-full h-[30vh] py-3 fade-in ease-in-out md:h-[30vh]`
                             : `hidden`
                     }
                     key={index}
@@ -46,13 +46,13 @@ const Description = ({ prev, next, activeImageIndex }: Props) => {
             <div className="w-full absolute -bottom-14 flex justify-center items-center gap-4 ">
                 <div
                     onClick={prev}
-                    className="w-10 h-10 bg-blue-300 text-white flex items-center justify-center rounded-md cursor-pointer hover:bg-bluePrimary"
+                    className="w-10 h-10 bg-[#e6d9b2] text-white flex items-center justify-center rounded-md cursor-pointer hover:bg-[#ebd595]"
                 >
                     <FaChevronLeft />
                 </div>
                 <div
                     onClick={next}
-                    className="w-10 h-10 bg-blue-300 text-white flex items-center justify-center rounded-md cursor-pointer hover:bg-bluePrimary"
+                    className="w-10 h-10 bg-[#e6d9b2] text-white flex items-center justify-center rounded-md cursor-pointer hover:bg-[#ebd595]"
                 >
                     <FaChevronRight />
                 </div>

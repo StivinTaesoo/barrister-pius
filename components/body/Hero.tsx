@@ -1,7 +1,7 @@
 export default function HeroSection() {
     return (
         <div
-            className="w-full h-[400px]  bg-cover bg-center relative md:h-[500px]"
+            className="w-full h-[400px]  bg-cover bg-center relative md:h-[600px]"
             style={{ backgroundImage: "url(./images/bg-2.png)" }}
         >
             <div className="w-full h-full  bg-transGrey absolute top-0 left-0 flex flex-col items-center justify-center">

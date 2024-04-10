@@ -21,33 +21,35 @@ function Slider() {
     useEffect(() => {
         const timer = setTimeout(() => {
             next();
-        }, 5000);
+        }, 8000);
         return () => {
             clearTimeout(timer);
         };
     }, [activeImage]);
 
     return (
-        <div className="grid place-items-center grid-row-2 w-full mx-auto my-20 md:w-[80%] shadow-2xl rounded-2xl">
-            <div className="w-full flex justify-center items-center gap-4 transition-transform ease-in-out duration-500 rounded-2xl">
-                {slideImages.map((img, index) => (
-                    <div
-                        className={
-                            index === activeImage
-                                ? `block w-full h-[30vh] md:h-[70vh] object-contain object-center transition-all duration-500 ease-in-out`
-                                : `hidden`
-                        }
-                        key={index}
-                    >
-                        <Image
-                            src={img.src}
-                            alt={img.desc}
-                            width={400}
-                            height={400}
-                            className="w-full h-full object-cover rounded-tl-3xl rounded-tr-3xl"
-                        />
-                    </div>
-                ))}
+        <div className="flex flex-col items-center justify-center bg-[#d1c8aa] gap-4 w-full mx-auto my-20 w-[100%] shadow-2xl rounded-2xl md:flex-row">
+            <div className="w-full md:w-[70%] ">
+                <div className="w-full flex justify-center items-center gap-4 transition-transform ease-in-out duration-500 rounded-2xl">
+                    {slideImages.map((img, index) => (
+                        <div
+                            className={
+                                index === activeImage
+                                    ? `block w-full h-[30vh] md:h-[70vh] object-contain object-center transition-all duration-500 ease-in-out`
+                                    : `hidden`
+                            }
+                            key={index}
+                        >
+                            <Image
+                                src={img.src}
+                                alt={img.desc}
+                                width={400}
+                                height={400}
+                                className="w-full h-full object-cover rounded-tl-3xl rounded-tr-3xl md:rounded-bl-3xl md:rounded-tr-none"
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
             <Description
                 next={next}

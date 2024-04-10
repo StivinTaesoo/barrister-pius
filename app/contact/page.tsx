@@ -6,7 +6,7 @@ function page() {
             {/* Hero Section */}
             <div
                 className="w-full h-[400px] md:h-[500px] bg-cover bg-center relative "
-                style={{ backgroundImage: "url(./images/hcc-4.jpeg)" }}
+                style={{ backgroundImage: "url(./images/bg-6.jpeg)" }}
             >
                 <div className="w-full h-full  bg-transGrey absolute top-0 left-0 flex flex-col items-center justify-center">
                     <div className="absolute bottom-5 text-center">
