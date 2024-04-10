@@ -7,7 +7,7 @@ function page() {
         <>
             {/* Hero Section */}
             <div
-                className="w-full h-[500px] bg-cover bg-center relative "
+                className="w-full h-[400px] md:h-[500px] bg-cover bg-center relative "
                 style={{ backgroundImage: "url(./images/bg-1.jpg)" }}
             >
                 <div className="w-full h-full  bg-transGrey absolute top-0 left-0 flex flex-col items-center justify-center">
@@ -34,6 +34,13 @@ function page() {
                     "Barr. Akutah was born on June 7th, 1970 in Ushongo Local Government Area, Benue State, Nigeria"
                 }
             />
+            <div className="w-full h-[400px] mx-auto md:h-[600px] md:w-[40%]">
+                <img
+                    src="/images/Pius-Akutah.jpg"
+                    alt=""
+                    className="w-full h-full object-cover"
+                />
+            </div>
             <TextContent
                 title={"Education"}
                 text={
@@ -46,6 +53,13 @@ function page() {
                     "Before assuming his role at the Nigerian Shippers' Council, Akutah held various positions of increasing responsibility within the Nigerian legal system. He served as an Assistant Director at the Federal Ministry of Justice, Abuja, where he headed the Central Authority Unit of the International Cooperation Department under the Office of The Honourable Attorney-General of the Federation (AGF) and Minister of Justice. Akutah's expertise in international legal cooperation led him to represent the Nigerian government in several high-profile criminal cases and to participate in the preparation, vetting, and negotiation of bilateral agreements on mutual legal assistance and extradition. Notably, he was involved in a landmark extradition case at the Supreme Court of Nigeria in 2022. Throughout his career, Akutah has been actively engaged in training, career enhancement, and international cooperation initiatives. He has attended numerous workshops, training programs, and conferences both domestically and internationally, focusing on topics such as criminal justice reform, maritime security, and judicial integrity."
                 }
             />
+            <div className="w-full h-[250px] md:h-[600px]">
+                <img
+                    src="/images/bg-6.jpeg"
+                    alt=""
+                    className="w-full h-full object-cover"
+                />
+            </div>
             <TextContent
                 title={"Professional Affiliations and Training"}
                 text={

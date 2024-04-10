@@ -4,7 +4,7 @@ function page() {
     return (
         <div className="w-full">
             <div
-                className="w-full h-[500px] bg-cover bg-center relative "
+                className="w-full h-[400px] md:h-[500px] bg-cover bg-center relative "
                 style={{ backgroundImage: "url(./images/hcc-4.jpeg)" }}
             >
                 <div className="w-full h-full  bg-transGrey absolute top-0 left-0 flex flex-col items-center justify-center">
@@ -199,7 +199,7 @@ function page() {
                         <img
                             src="/images/img-9.jpg"
                             alt=""
-                            className="w-full h-full object-contain rounded-md shadow-md"
+                            className="w-full h-full object-cover rounded-md shadow-md"
                         />
                     </div>
                 </div>

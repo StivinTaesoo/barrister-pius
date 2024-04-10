@@ -26,6 +26,12 @@
     transform: scale(1.1);
 }
 
+.dropdown-menu {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: rgb(194, 248, 250);
+}
+
 .mobile-menu ul li {
     padding: 10px;
     transition: transform 0.3s ease;
