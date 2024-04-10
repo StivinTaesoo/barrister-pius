@@ -18,6 +18,7 @@ const ReverseSection = ({ title, text, imgUrl }: Props) => {
             </div>
             <div className="w-full md:w-1/2 text-left ">
                 <div className="text-left w-full ">
+                    <div className="w-20 h-2 bg-[#e6e2d5] rounded-tr-md md:w-[200px]"></div>
                     <h2 className="text-2xl text-left text-white bg-blue-300 px-2 mb-2 py-4 rounded-r-full">
                         {title}
                     </h2>

@@ -37,8 +37,9 @@
     transition: transform 0.3s ease;
 }
 .mobile-menu ul li:hover {
-    background: #1f75fe;
+    background: #b9d0f7;
     color: #fff;
+    border-radius: 8px;
 }
 
 .text-shadow {

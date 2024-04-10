@@ -46,7 +46,7 @@ export const Navbar = () => {
                 <ul
                     className={
                         click
-                            ? "dropdown-menu w-full h-[50vh] absolute top-0 flex flex-col items-left px-4 py-6 justify-center gap-y-4 bg-white text-[22px] text-black font-bold transition-transorm ease-linear h-0 w-0 delay-1000 duration-1000 "
+                            ? "dropdown-menu w-full h-[60vh] absolute top-0 flex flex-col items-left px-4 pt-10 pb-4 justify-center gap-y-4 bg-white text-[22px] text-black font-bold transition-transorm ease-linear h-0 w-0 delay-1000 duration-1000 "
                             : "hidden"
                     }
                 >
