@@ -53,3 +53,16 @@
     background: #e4dfd1;
     background: #ebd595;
 }
+
+#ch {
+    display: none;
+}
+#ch:checked ~ .content {
+    display: block;
+}
+#ch:checked ~ label {
+    display: none;
+}
+.content {
+    display: none;
+}
